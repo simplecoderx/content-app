@@ -1,0 +1,11 @@
+@tailwind base;
+
+@layer base{
+    h1{
+        @apply text-blue-700;
+    }
+
+    a{
+        @apply text-teal-600 underline;
+    }
+}
